@@ -1,0 +1,197 @@
+<resources>
+
+    <string name="app_name">Coffer</string>
+    <string name="login">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="main">Main</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+
+    <!--Login Screen -->
+    <string name="help"><u>Help</u></string>
+    <string name="emailormob">Email or Mobile Number</string>
+    <string name="Password">Password</string>
+    <string name="forgot"><u>Forgot Password ?</u></string>
+    <string name="register_here"><u>Register Here</u></string>
+
+    <!--Register Screen -->
+    <string name="login_here"><u>Login Here If Already Register</u></string>
+    <string name="username">User Name</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="emial">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="pre_post_mobile">Enter prepaid or postpaid mobile number and select the operator for further action</string>
+    <string name="address">Address</string>
+    <string name="register">Register</string>
+    <!--E-wallet Screen-->
+    <string name="mobile_recharge">Mobile Recharge</string>
+    <string name="data_card">Data card</string>
+    <string name="data_card_n">Data card number</string>
+    <string name="pre">Prepaid</string>
+    <string name="post">Postpaid</string>
+
+    <string name="operator">Mobile Operator</string>
+    <string name="amount">Amount</string>
+    <string name="recharge_now">Recharge Now</string>
+    <string name="proced_to_recharge">Proceed To Recharge</string>
+    <string name="proced_to_pay">Proceed To Pay Bill</string>
+
+    <string name="submit">Submit</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_amount_rs">\u20B9 Enter amount</string>
+    <string name="et_passeword">Enter 6 digit password</string>
+    <string name="add_money">Add money to your wallet &amp; avail\n amazing benefits!</string>
+    <string name="add_now">Add Now</string>
+    <string name="add_ben">Add Beneficiary</string>
+    <string name="beni_list">Beneficiary List / Add Beneficiary</string>
+    <string name="status">Status</string>
+
+
+    <string name="update">Update</string>
+    <string name="change_pass">Change Password</string>
+
+    <string name="send_money">Please enter your coffer wallet password to send money</string>
+    <string name="send">Send Now</string>
+
+    <!-- Drawer Menu items -->
+    <string-array name="nav_drawer_items">
+        <item>@string/home</item>
+        <item>@string/bp</item>
+        <item>@string/wb</item>
+        <item>@string/change_pass</item>
+        <item>@string/mt</item>
+        <item>@string/tandc</item>
+        <item>@string/about</item>
+        <item>@string/faq</item>
+        <item>@string/th</item>
+        <item>@string/mth</item>
+        <item>@string/refer</item>
+        <item>@string/feedback</item>
+        <item>@string/logout</item>
+
+    </string-array>
+
+    <string name="home">Home</string>
+    <string name="bp">Bonus Point</string>
+    <string name="wb">Wallet Balance</string>
+    <string name="fp">Forgot Password</string>
+    <string name="mt">Money Transfer</string>
+    <string name="tandc">Terms and Condition</string>
+    <string name="about">About US</string>
+    <string name="faq">FAQ</string>
+    <string name="th">Transaction History</string>
+    <string name="mth">Money Transaction History</string>
+    <string name="refer">Refer to Friend</string>
+    <string name="feedback">Feedback</string>
+    <string name="logout">Logout</string>
+
+
+    <string name="recharge">Recharge</string>
+    <string name="recharge1">Recharge and Bill Payment</string>
+    <string name="mob">Mobile</string>
+    <string name="wallet">Wallet</string>
+    <string name="dth">DTH</string>
+    <string name="datacard">Data card</string>
+    <string name="electri">Electricity Bill Payment</string>
+    <string name="money">Money Transfer</string>
+    <string name="chat">Chat</string>
+    <string name="file">File Share</string>
+    <string name="fund_trans">Fund Transfer</string>
+
+    <string name="browse_plan"><u>Browse Plan</u></string>
+
+
+    <!--Tabs Name-->
+    <string name="tb1">Mobile</string>
+    <string name="tb2">Datacard</string>
+    <string name="tb3">DTH</string>
+    <string name="tb4">Electricity</string>
+    <string name="tb5">Gas</string>
+    <!-- Sliding Menu item icons -->
+    <array name="nav_drawer_icons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <string-array name="image_ids">
+        <item>@mipmap/dash1</item>
+        <item>@mipmap/dash2</item>
+        <item>@mipmap/dash7</item>
+        <item>@mipmap/dash8</item>
+    </string-array>
+
+    <string-array name="image_tittle">
+        <item>@string/recharge1</item>
+        <item>@string/fund_trans</item>
+        <item>@string/chat</item>
+        <item>@string/file</item>
+    </string-array>
+
+    <string name="Rs">\u20B9 0.00</string>
+    <string name="Rs_symbol">\u20B9</string>
+    <string name="wallet_rs">\u20B9 0:00</string>
+
+
+    <!--Errors string going here !-->
+    <string name="network_not_found">Close drawer</string>
+
+    <string name="film_genres">Film genres</string>
+    <string name="website">https://en.wikipedia.org/wiki/Film</string>
+    <string name="date">22 Oct 2015</string>
+    <string name="selected_item">Selected item</string>
+
+    <string-array name="nav_main">
+        <item>Home</item>
+        <item>Recharge or Bill Payment</item>
+        <item>Wallet</item>
+        <item>Money Transfer</item>
+        <item>Payment Option</item>
+        <item>Refer to Friend</item>
+        <item>Transaction History</item>
+        <item>Feedback</item>
+    </string-array>
+
+    <string-array name="home">
+        <item>About US</item>
+        <item>Terms and Conditions</item>
+        <item>FAQ</item>
+    </string-array>
+
+    <string-array name="recharge">
+        <item>Mobile</item>
+        <item>Data Card</item>
+        <item>DTH</item>
+        <item>Electricity Bill</item>
+    </string-array>
+
+    <string-array name="transfer">
+        <item>Wallet to Wallet</item>
+        <item>Wallet to Bank Account</item>
+    </string-array>
+
+    <string-array name="payment_option">
+        <item>Debit Card</item>
+        <item>Credit Card</item>
+        <item>Net Banking</item>
+        <item>Wallet</item>
+    </string-array>
+
+    <string name="internet_connection_dialog">Looks like you are not connected to the internet. An internet connection is required to this Process. Click settings to enable WiFi or Mobile Data.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="err_msg_name">Enter full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="title_activity_chat_room_discussion">ChatRoomDiscussionActivity</string>
+    <string name="action_logout">Logout</string>
+    <string name="file_content">1 file , total 3.1mb \nDevice One Share to Device Two</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

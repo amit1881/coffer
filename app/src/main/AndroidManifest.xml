@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asmobisoft.coffer"
+    android:versionCode="2"
+    android:versionName="1.01">
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <screen
+        android:screenDensity="480"
+        android:screenSize="normal" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!--For Camera and Gallery image upload-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <!--Read contact detail-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name="com.asmobisoft.coffer.SplashActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    <!--
+         Defining Services-->
+     <service
+            android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>-
+
+
+        <activity
+            android:name="com.asmobisoft.coffer.registration.LoginActivity"
+            android:label="@string/login"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.asmobisoft.coffer.registration.SignupActivity"
+            android:label="@string/Signup"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".MainActivity1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name="com.asmobisoft.coffer.registration.ForgotPasswordActivity"
+            android:label="@string/forgot"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+
+        <!--  <activity
+                android:name="com.asmobisoft.coffer.activity.RechargeActivity"
+                android:label="@string/recharge"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateAlwaysHidden" />-->
+
+        <activity android:name="com.asmobisoft.coffer.activity.RechargeActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity1" />
+        </activity>
+      <!--  <activity android:name="com.asmobisoft.coffer.activity.ProfileActivity"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity1" />
+        </activity>-->
+        <activity
+            android:name="com.asmobisoft.coffer.activity.MoneyTransferActivity"
+            android:theme="@style/MyTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity1" />
+        </activity>
+
+        <activity
+            android:name="com.asmobisoft.coffer.activity.MobileRechargeActivity"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity1" />
+        </activity>
+        <activity
+            android:name="com.asmobisoft.coffer.activity.WalletActivity"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity1" />
+        </activity>
+
+        <activity
+            android:name="com.asmobisoft.coffer.activity.ChatRoomActivity"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity1" />
+        </activity>
+
+        <activity
+            android:name="com.asmobisoft.coffer.activity.ChatMessageActivity"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.ChatRoomActivity" />
+        </activity>
+
+        <activity
+            android:name="com.asmobisoft.coffer.activity.BeneficiaryListActivity"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity1" />
+        </activity>
+
+        <activity
+            android:name="com.asmobisoft.coffer.activity.FileSharingActivity"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity1" />
+        </activity>
+
+        <activity
+            android:name="com.asmobisoft.coffer.activity.AddBeniActivity"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.BeneficiaryListActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.asmobisoft.coffer.activity.BeniDetailActivity"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.BeneficiaryListActivity" />
+        </activity>
+        <activity android:name=".activity.SendingReceiveOption"
+            android:theme="@style/MyTheme"/>
+        <activity android:name=".activity.FileShareOption"
+            android:theme="@style/MyTheme"/>
+        <activity android:name=".activity.ReceiveProgress"
+            android:theme="@style/MyTheme"/>
+        <activity android:name=".activity.Searching_Devices"
+            android:theme="@style/MyTheme"/>
+        <activity android:name=".activity.SendingProgress"
+            android:theme="@style/MyTheme"/>
+
+        <activity android:name=".activity.ProfileActivity"
+            android:theme="@style/MyTheme"/>
+
+
+
+    </application>
+</manifest>

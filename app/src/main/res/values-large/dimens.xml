@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="frame_padding">15dp</dimen>
+    <dimen name="padding_allSide">50dp</dimen>
+    <dimen name="etpadding">20dp</dimen>
+    <dimen name="textsize">20dp</dimen>
+
+</resources>

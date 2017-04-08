@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "856097006556",
+    "firebase_url": "https://coffer-4a875.firebaseio.com",
+    "project_id": "coffer-4a875",
+    "storage_bucket": "coffer-4a875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856097006556:android:5b8827c3352a91c7",
+        "android_client_info": {
+          "package_name": "com.asmobisoft.coffer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856097006556-vc4a4qib5b45r2p8al0cqc4orlm8iq4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbEyN8z81U-OSa1Q22wy1vk9MA1x70COY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

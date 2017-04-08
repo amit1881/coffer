@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:id="@+id/rlRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:text="Edit Profile"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_fullName"
+            android:layout_marginTop="10dp"
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_mobile_number"
+            android:layout_marginTop="10dp"
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etAdress"
+            android:layout_marginTop="10dp"
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="Save"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

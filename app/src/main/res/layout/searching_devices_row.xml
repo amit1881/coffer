@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:background="@color/cardviewback"
+        android:id="@+id/rl_selected_device">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Device Name"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:textColor="@color/new_background"
+            android:drawableLeft="@mipmap/icon1"
+            android:drawableTint="@color/new_background"/>
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

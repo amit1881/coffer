@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_new"
+        android:id="@+id/toolbar"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@color/whatsapp_backgraound"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+                <com.asmobisoft.coffer.commonmethod.CircleImageView
+                    android:id="@+id/header_imageview"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:elevation="5dp"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile_pic"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                 <com.asmobisoft.coffer.commonmethod.CircleImageView
+                     android:id="@+id/upload_image"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:src="@mipmap/camera_icon2"
+                     android:visibility="visible"
+                     android:layout_marginRight="69dp"
+                     android:layout_marginEnd="69dp"
+                     android:layout_alignBottom="@+id/header_imageview"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout"
+            android:background="@color/white"
+            android:divider="@color/colorPrimary"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="This is not your username or pin. This name will be visible to your Coffer Contacts."/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="@color/whatsapp_backgraound"/>
+
+            <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+                android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:drawablePadding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Status : #" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:drawablePadding="15dp"
+                android:clickable="true"
+                android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="CofferHaiNa" />
+</LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="@color/whatsapp_backgraound"/>
+            <TextView
+                android:id="@+id/tv_full_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:drawableLeft="@mipmap/user_icon1"
+                android:drawablePadding="15dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Ankur Srivastava" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="@color/whatsapp_backgraound"/>
+
+            <TextView
+                android:id="@+id/tv_mobile_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:drawableLeft="@mipmap/mobile_icon"
+                android:gravity="center_vertical"
+                android:drawablePadding="15dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="+91-9899077656" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="@color/whatsapp_backgraound"/>
+
+            <TextView
+                android:id="@+id/tv_email_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:drawableLeft="@mipmap/email_icon"
+                android:gravity="center_vertical"
+                android:drawablePadding="15dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="abc@gmail.com" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="@color/whatsapp_backgraound"/>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:drawableLeft="@mipmap/addresh_icon"
+                android:gravity="center_vertical"
+                android:drawablePadding="15dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="B-694 , First Floor ,Janta Flat ,Jasola Vihar , New Delhi Pin-110025" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:background="@color/whatsapp_backgraound"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

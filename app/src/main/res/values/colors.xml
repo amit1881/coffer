@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#148ECD</color>
+    <color name="colorPrimaryDark">#0e7db6</color>
+    <color name="colorAccent">#9f9f9f</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background">#E3E3E3</color>
+
+    <color name="new_background">#127DC3</color>
+    <color name="list_divider">#dedede</color>
+    <color name="bg_bubble_self">#E1E1E1</color>
+    <color name="gray">#5d5c5c</color>
+    <color name="cardviewback">#ECEFF1</color>
+    <color name="whatsapp_backgraound">#d6dbd8</color>
+
+    <color name="green">#7EE50F</color>
+    <color name="even">#87cbf9</color>
+
+</resources>
